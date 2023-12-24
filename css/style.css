@@ -47,13 +47,13 @@ body {
 }
 
 a {
-  color: #A27D30;
+  color: #A23056;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
 }
 a:hover, a:active, a:focus {
-  color: #A27D30;
+  color: #A23056;
   outline: none;
   text-decoration: none;
 }
@@ -71,17 +71,17 @@ h1, h2, h3, h4, h5, h6, figure {
 
 ::-webkit-selection {
   color: #fff;
-  background: #A27D30;
+  background: #A23056;
 }
 
 ::-moz-selection {
   color: #fff;
-  background: #A27D30;
+  background: #A23056;
 }
 
 ::selection {
   color: #fff;
-  background: #A27D30;
+  background: #A23056;
 }
 
 #fh5co-header,
@@ -257,7 +257,7 @@ h1, h2, h3, h4, h5, h6, figure {
   display: table-cell;
   vertical-align: middle;
   height: 100px;
-  color: #A27D30 !important;
+  color: #A23056 !important;
 }
 #fh5co-features .feature-left .feature-copy {
   width: 100%;
@@ -365,7 +365,7 @@ h1, h2, h3, h4, h5, h6, figure {
   display: inline-block;
   zoom: 1;
   display: inline;
-  color: #A27D30;
+  color: #A23056;
   padding-left: 10px;
   padding-right: 10px;
 }
@@ -402,7 +402,7 @@ h1, h2, h3, h4, h5, h6, figure {
   font-size: 20px;
 }
 #fh5co-about .fh5co-social-icons li a:hover {
-  background: #A27D30;
+  background: #A23056;
 }
 
 .fh5co-heading {
@@ -532,7 +532,7 @@ h1, h2, h3, h4, h5, h6, figure {
   top: 40px;
   left: 50%;
   margin-left: -21px;
-  background-color: #A27D30;
+  background-color: #A23056;
   z-index: 100;
   display: table;
   -webkit-border-radius: 50%;
@@ -801,7 +801,7 @@ h1, h2, h3, h4, h5, h6, figure {
   height: 54px;
   border: none !important;
   background: #fff;
-  color: #A27D30;
+  color: #A23056;
   font-size: 16px;
   text-transform: uppercase;
   font-weight: 400;
@@ -1111,21 +1111,21 @@ input[type="text"] {
 }
 
 .btn-primary {
-  background: #A27D30;
+  background: #A23056;
   color: #fff;
-  border: 2px solid #A27D30;
+  border: 2px solid #A23056;
 }
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
-  background: #A27D30 !important;
-  border-color: #A27D30 !important;
+  background: #A23056 !important;
+  border-color: #A23056 !important;
 }
 .btn-primary.btn-outline {
   background: transparent;
-  color: #A27D30;
-  border: 2px solid #A27D30;
+  color: #A23056;
+  border: 2px solid #A23056;
 }
 .btn-primary.btn-outline:hover, .btn-primary.btn-outline:focus, .btn-primary.btn-outline:active {
-  background: #A27D30;
+  background: #A23056;
   color: #fff;
 }
 
