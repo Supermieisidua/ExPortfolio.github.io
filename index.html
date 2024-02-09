@@ -1,6 +1,40 @@
 <!DOCTYPE HTML>
 <html>
 	<head>
+	<html lang="en">
+		<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Navbar using HTML and CSS | Codehal</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+	</head>
+
+	<body>
+    	<header class="header">
+        	<a href="#" class="logo">Portfolio</a>
+        
+       		 <input type="checkbox"id="check">
+        	 <label for="check" class="icons">
+             <i class='bx bx-menu' id="menu-icon"></i>
+             <i class='bx bx-x'    id="close-icon"></i>
+       		 </label>
+
+        <nav class="navbar">
+            <a href="#about" style="--i:0;">About</a>
+            <a href="#tools" style="--i:1;">Tools</a>
+            <a href="#service" style="--i:2;">Service</a>
+            <a href="#Project" style="--i:3;">Project</a>
+            <a href="#" style="--i:4;">Contact</a>
+        </nav>
+    	</header>
+	</body>
+</html>
+
+		
+		
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<title>Said Husain &mdash; Portfolio Digital Marketing </title>
@@ -77,7 +111,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
-					<h2>About Me</h2>
+					<h2 id="about">About Me</h2>
 				</div>
 			</div>
 			<div class="row">
@@ -95,7 +129,7 @@
 				</div>
 				<div class="col-md-8">
 					<h2>Hello There!</h2>
-					<p>I am Physics graduate from Institute of Technology Bandung with a commitment to rigorous problem-solving and critical thinking.</p>
+					<p>I am Physics graduate from the Institute of Technology Bandung with a commitment to rigorous problem-solving and critical thinking.</p>
 					<p>I've expanded my expertise to Marketing, Business Development, and Public Relations, showcasing practical skills in crafting compelling product descriptions, market price research, e-commerce management, and basic product design. Open to full-time, part-time, or internship opportunities, and willing to be placed in a work-from-office (WFO) setting.</p>
 					<p>
 						<ul class="fh5co-social-icons">
@@ -104,6 +138,81 @@
 						</ul>
 					</p>
 				</div>
+			</div>
+		</div>
+	</div>
+	<div id="fh5co-work" class="fh5co-bg-dark">
+		<div class="container">
+			<div class="row animate-box">
+				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+					<h2 id="tools">Tools</h2>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-3 text-center col-padding animate-box">
+					<a  class="work" style="background-image: url(images/15.png);">
+						<div class="desc">
+							<h3>Ads</h3>
+							<span>Meta & Google</span>
+						</div>
+					</a>
+				</div>
+				<div class="col-md-3 text-center col-padding animate-box">
+					<a  class="work" style="background-image: url(images/16.png);">
+						<div class="desc">
+							<h3>Analytics</h3>
+							<span>Google</span>
+						</div>
+					</a>
+				</div>
+				<div class="col-md-3 text-center col-padding animate-box">
+					<a  class="work" style="background-image: url(images/17.png);">
+						<div class="desc">
+							<h3>Design</h3>
+							<span>Photoshop & Illustrator</span>
+						</div>
+					</a>
+				</div>
+				<div class="col-md-3 text-center col-padding animate-box">
+					<a  class="work" style="background-image: url(images/18.png);">
+						<div class="desc">
+							<h3>Web Design</h3>
+							<span>Wordpress & Elementor</span>
+						</div>
+					</a>
+				</div>
+				<div class="col-md-3 text-center col-padding animate-box">
+					<a  class="work" style="background-image: url(images/19.png);">
+						<div class="desc">
+							<h3>CRM Tools</h3>
+							<span>MailChimp</span>
+						</div>
+					</a>
+				</div>
+				<div class="col-md-3 text-center col-padding animate-box">
+					<a class="work" style="background-image: url(images/20.png);">
+						<div class="desc">
+							<h3>Seo Tools</h3>
+							<span>Ahrefs & ScreamingFrog</span>
+						</div>
+					</a>
+				</div>
+				<div class="col-md-3 text-center col-padding animate-box">
+					<a class="work" style="background-image: url(images/21.png);">
+						<div class="desc">
+							<h3>E-commerce Tools</h3>
+							<span>Seller Center</span>
+						</div>
+					</a>
+				</div>
+				<div class="col-md-3 text-center col-padding animate-box">
+					<a class="work" style="background-image: url(images/22.png);">
+						<div class="desc">
+							<h3>other Tools</h3>
+							<span></span>
+						</div>
+					</a>
+				
 			</div>
 		</div>
 	</div>
@@ -142,7 +251,7 @@
 				<div class="col-md-3 text-center col-padding animate-box">
 					<a class="work" style="background-image: url(images/Certif\ 2.png);">
 						<div class="desc">
-							<h3>Google Ads Measurement</h3>
+							<h3>Google Ads Measuerment</h3>
 							<span>Google SkillShop</span>
 						</div>
 					</a>
@@ -246,7 +355,7 @@
 			<div class="services-padding">
 				<div class="row">
 					<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
-						<h2>My Services</h2>
+						<h3 id="service">My Services</h3>
 					</div>
 				</div>
 				<div class="row">
@@ -339,33 +448,7 @@
 					<h2>Skills</h2>
 				</div>
 			</div>
-			<div class="row row-pb-md">
-				<div class="col-md-3 col-sm-6 col-xs-12 text-center">
-					<div class="chart" data-percent="50"><span><strong>SEO</strong></span></div>
-				</div>
-				<div class="col-md-3 col-sm-6 col-xs-12 text-center">
-					<div class="chart" data-percent="50"><span><strong>Photoshop and <br> Illustrator</strong></span></div>
-				</div>
-				<div class="col-md-3 col-sm-6 col-xs-12 text-center">
-					<div class="chart" data-percent="50"><span><strong>Meta and <br> Google Ads</strong></span></div>
-				</div>
-
-				<div class="col-md-3 col-sm-6 col-xs-12 text-center">
-					<div class="chart" data-percent="50"><span><strong>Social Media Content</strong></span></div>
-				</div>
-				<div class="col-md-3 col-sm-6 col-xs-12 text-center">
-					<div class="chart" data-percent="50"><span><strong>E-Commerce Generalist</strong></span></div>
-				</div>
-				<div class="col-md-3 col-sm-6 col-xs-12 text-center">
-					<div class="chart" data-percent="50"><span><strong>Landing <br> Page</strong></span></div>
-				</div>
-				<div class="col-md-3 col-sm-6 col-xs-12 text-center">
-					<div class="chart" data-percent="50"><span><strong>Content <br> Writing</strong></span></div>
-				</div>
-				<div class="col-md-3 col-sm-6 col-xs-12 text-center">
-					<div class="chart" data-percent="50"><span><strong>Market <br> Research</strong></span></div>
-				</div>
-			</div>
+			
 			<div class="row">
 				<div class="col-md-6">
 					<div class="progress-wrap">
@@ -426,71 +509,71 @@
 		<div class="container">
 			<div class="row animate-box">
 				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
-					<h2>Work</h2>
+					<h2 id="Project">Project</h2>
 				</div>
 			</div>
 			<div class="row">
 				<div class="col-md-3 text-center col-padding animate-box">
-					<a class="work" style="background-image: url(images/poster\ job.png);">
+					<a href="https://www.canva.com/design/DAF8PasuwtU/1Nxp92H8qlrBbLLzs3Xssw/view?utm_content=DAF8PasuwtU&utm_campaign=designshare&utm_medium=link&utm_source=editor" target="_blank" class="work" style="background-image: url(images/poster\ job.png);">
 						<div class="desc">
-							<h3>Poster</h3>
-							<span>Design</span>
+							<h3>Brand Value Proposition</h3>
+							<span>Identify Brand and Competitor</span>
 						</div>
 					</a>
 				</div>
 				<div class="col-md-3 text-center col-padding animate-box">
-					<a class="work" style="background-image: url(images/mock\ up\ portfolio.png);">
+					<a href="https://www.canva.com/design/DAF8PW8DXPY/VytDFugHXSBKt1OBOsggUA/view?utm_content=DAF8PW8DXPY&utm_campaign=designshare&utm_medium=link&utm_source=editor" target="_blank" class="work" style="background-image: url(images/mock\ up\ portfolio.png);">
 						<div class="desc">
-							<h3>Portfolio</h3>
-							<span>Web Design</span>
+							<h3>Content Pillar</h3>
+							<span>Manage and Create Content</span>
 						</div>
 					</a>
 				</div>
 				<div class="col-md-3 text-center col-padding animate-box">
-					<a class="work" style="background-image: url(images/poster\ madnesss.png);">
+					<a href="https://www.canva.com/design/DAF18LQVWeQ/VAosENYwSfrI0aHIm9qftg/view?utm_content=DAF18LQVWeQ&utm_campaign=designshare&utm_medium=link&utm_source=editor" target="_blank" class="work" style="background-image: url(images/poster\ madnesss.png);">
 						<div class="desc">
-							<h3>Madness Event</h3>
-							<span>Poster Desgin</span>
+							<h3>Landing Page</h3>
+							<span>Manage Campaign with Wordpress</span>
 						</div>
 					</a>
 				</div>
 				<div class="col-md-3 text-center col-padding animate-box">
-					<a  class="work" style="background-image: url(images/madness\ score\ board-4.png);">
+					<a href="https://www.canva.com/design/DAF8SCAQEDc/a_Igje1purQpIiYErhpN2w/view?utm_content=DAF8SCAQEDc&utm_campaign=designshare&utm_medium=link&utm_source=editor" target="_blank" class="work" style="background-image: url(images/landing\ page\ design.png);">
 						<div class="desc">
-							<h3>Score board </h3>
-							<span>Template Design</span>
+							<h3>Online Ads</h3>
+							<span>Meta Ads</span>
 						</div>
 					</a>
 				</div>
 				<div class="col-md-3 text-center col-padding animate-box">
-					<a  class="work" style="background-image: url(images/landing\ page\ design.png);">
+					<a href="https://www.canva.com/design/DAF8R-pCnX4/MrMP2CQwdqN31-60NXrz7A/view?utm_content=DAF8R-pCnX4&utm_campaign=designshare&utm_medium=link&utm_source=editor" target="_blank" class="work" style="background-image: url(images/natal1.png);">
 						<div class="desc">
-							<h3>Landing page</h3>
-							<span>Website Design</span>
+							<h3>Practice SEO WEB</h3>
+							<span>Analysist Web for axe.id </span>
 						</div>
 					</a>
 				</div>
 				<div class="col-md-3 text-center col-padding animate-box">
-					<a  class="work" style="background-image: url(images/natal1.png);">
+					<a href="https://www.canva.com/design/DAF8SHStyuw/kU_vQZZVe61TdnstAovbPg/view?utm_content=DAF8SHStyuw&utm_campaign=designshare&utm_medium=link&utm_source=editor" target="_blank" class="work" style="background-image: url(images/team\ vs.png);">
 						<div class="desc">
-							<h3>Christmas Edition</h3>
-							<span>Feed Instagram</span>
+							<h3>Analytics For Campaign Planning</h3>
+							<span>Google Search Campaign</span>
 						</div>
 					</a>
 				</div>
 				<div class="col-md-3 text-center col-padding animate-box">
-					<a  class="work" style="background-image: url(images/team\ vs.png);">
+					<a href="https://www.canva.com/design/DAF8SHLL0w8/xAGxqgY9TGJwsHeE7bx4Kg/view?utm_content=DAF8SHLL0w8&utm_campaign=designshare&utm_medium=link&utm_source=editor" target="_blank" class="work" style="background-image: url(images/contoh\ laen.png);">
 						<div class="desc">
-							<h3>Team Versus</h3>
-							<span>Poster Design</span>
+							<h3>Costumer Relationship Management </h3>
+							<span>Creating Flow and Manage Email Contact with Mailchimp and WA Business</span>
 						</div>
 					</a>
 				</div>
 				<div class="col-md-3 text-center col-padding animate-box">
-					<a  class="work" style="background-image: url(images/contoh\ laen.png);">
+					<a href="https://www.canva.com/design/DAF8R0iGCm8/3baQ4xWT9C3JS2svd5Ywaw/view?utm_content=DAF8R0iGCm8&utm_campaign=designshare&utm_medium=link&utm_source=editor" target="_blank" class="work" style="background-image: url(images/madness\ score\ board-4.png);">
 						<div class="desc">
-							<h3>Background</h3>
-							<span>design</span>
+							<h3>Intergrated Media Planning</h3>
+							<span>Creating Campaign with marketing tools</span>
 						</div>
 					</a>
 				</div>
@@ -509,7 +592,7 @@
 			<div class="row">
 				<div class="col-md-4">
 					<div class="fh5co-blog animate-box">
-						<a  class="blog-bg" style="background-image: url(images/12.12\ SabunZone\ Shopee.png); background-size: contain;"></a>
+						<a href="#" class="blog-bg" style="background-image: url(images/12.12\ SabunZone\ Shopee.png); background-size: contain;"></a>
 						<div class="blog-text">
 							<span class="posted_on">Des. 12th 2023</span>
 							<h3><a href="#">Banner For a few <br>E-Commerce 12.12 in SabunZone</a></h3>
@@ -524,7 +607,7 @@
 				</div>
 				<div class="col-md-4">
 					<div class="fh5co-blog animate-box">
-						<a  class="blog-bg" style="background-image: url(images/SHOPEE.png); background-size: contain;"></a>
+						<a href="#" class="blog-bg" style="background-image: url(images/SHOPEE.png); background-size: contain;"></a>
 						<div class="blog-text">
 							<span class="posted_on">Des. 12th 2023</span>
 							<h3><a href="#">Banner for a few <br> E-Commerce in SabunZone </a></h3>
@@ -539,7 +622,7 @@
 				</div>
 				<div class="col-md-4">
 					<div class="fh5co-blog animate-box">
-						<a  class="blog-bg" style="background-image: url(images/12.12\ FrancyShop\ .png); background-size: contain;"></a>
+						<a href="#" class="blog-bg" style="background-image: url(images/12.12\ FrancyShop\ .png); background-size: contain;"></a>
 						<div class="blog-text">
 							<span class="posted_on">Des. 12th 2023</span>
 							<h3><a href="#">Banner For a few <br>E-Commerce 12.12 in FrancyShop</a></h3>
