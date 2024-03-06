@@ -106,7 +106,38 @@
 			</div>
 		</div>
 	</header>
-
+	<div id="fh5co-about" class="animate-box">
+			<div class="row">
+				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+					<h2>Short Resume Video</h2>
+				</div>
+			</div>
+			<div id="specialBtn" class="btn">
+				<div class="play"></div>
+				<p>Play Video</p>
+			</div>
+			<div class="clip">
+				<video class="video" autoplay src="stgprah.mp4" controls ></video>
+				<b class="close">Close</b>
+			</div>
+			<script>
+				let btn = document.querySelector('#specialBtn');
+				let clip = document.querySelector('.clip');
+				let close = document.querySelector('.close');
+				let video = document.querySelector('.video');
+			
+				btn.onclick = function() {
+					btn.classList.add('active');
+					clip.classList.add('active');
+				};
+				
+				close.onclick = function() {
+					btn.classList.remove('active');
+					clip.classList.remove('active');
+					video.pause();
+				}
+			</script>
+	</div>
 	<div id="fh5co-about" class="animate-box">
 		<div class="container">
 			<div class="row">
