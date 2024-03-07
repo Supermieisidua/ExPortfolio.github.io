@@ -248,14 +248,24 @@ body {
 {
   position: absolute;
   top: 30px;
-  right: 30px;
+  right: 100px;
   cursor: pointer;
   font-weight: 500px;
-  letter-spacing: 2px;
+  font-size: 40px;
+  letter-spacing: 1.5px;
   text-transform: uppercase;
   color: #fff;
 }
 
+@media (max-width: 768px) 
+{
+  .clip .close
+{
+  color: #ffffff;
+  top: -10px;
+  right: 30px;
+}
+}
 
 @media (max-width: 991px )
 {
